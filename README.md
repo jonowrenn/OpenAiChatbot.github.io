@@ -1,13 +1,14 @@
----
-title: Gpt Chatbot
-emoji: 🔥
-colorFrom: red
-colorTo: pink
-sdk: gradio
-sdk_version: 5.42.0
-app_file: app.py
-pinned: false
-license: mit
----
+# GPT Chatbot
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+A simple web-based chatbot powered by OpenAI's GPT-3.5-turbo, built with Gradio and deployed on Hugging Face Spaces.
+
+## Features
+- Friendly conversational UI
+- Runs fully in the cloud
+- Powered by OpenAI's API
+
+## How to Run
+This app is designed to run securely on Hugging Face Spaces. Make sure to set your `OPENAI_API_KEY` under the **Secrets** tab.
+
+## Demo
+[Click here to view the live demo](https://huggingface.co/spaces/jonowrenn/gpt-chatbot)
